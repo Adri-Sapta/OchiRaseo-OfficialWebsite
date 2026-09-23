@@ -5,11 +5,12 @@
   --foreground: #171717;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@theme {
+  /* Deklarasi warna kustom khas Ochi Rasheo */
+  --color-ochi-light: #eaf5ea;
+  --color-ochi-primary: #88c488;
+  --color-ochi-dark: #2b3a2b;
+  --color-ochi-accent: #76b876;
 }
 
 @media (prefers-color-scheme: dark) {
