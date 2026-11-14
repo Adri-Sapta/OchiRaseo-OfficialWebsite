@@ -51,7 +51,7 @@ export default function Videos({
           viewport={{ once: true }}
           className="text-2xl md:text-3xl font-bold text-ochi-primary tracking-widest flex items-center gap-2"
         >
-          LATEST STREAMS 📺
+          LATEST STREAMS & VIDEOS 📺
         </motion.h2>
 
         {/* Indikator Halaman */}

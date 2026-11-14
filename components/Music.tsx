@@ -5,19 +5,14 @@ import { motion } from 'framer-motion';
 export default function Music() {
   const musicList = [
     {
+      title: "Haruka「ハルカ」- Yoasobi (Cover by Ochi Rasheo)",
+      thumbnail: "https://i.ytimg.com/vi/zmRK3EkhoL4/hqdefault.jpg",
+      url: "https://www.youtube.com/watch?v=zmRK3EkhoL4",
+    },
+    {
       title: "初恋 - Kobo Kanaeru (Cover by Ochi Rasheo)",
       thumbnail: "https://i.ytimg.com/vi/QsHk_oal34A/hqdefault.jpg",
       url: "https://www.youtube.com/watch?v=QsHk_oal34A",
-    },
-    {
-      title: "I Like You So Much, You'll Know It - Ysabelle (Cover by Ochi Rasheo)",
-      thumbnail: "https://i.ytimg.com/vi/vIrwrPanRCU/hqdefault.jpg",
-      url: "https://www.youtube.com/watch?v=vIrwrPanRCU",
-    },
-    {
-      title: "ぎゅっと。(Gyutto.) / もさを。(Cover by Ochi Rasheo)",
-      thumbnail: "https://i.ytimg.com/vi/CXm2HaanIF0/hqdefault.jpg",
-      url: "https://www.youtube.com/watch?v=CXm2HaanIF0",
     },
     {
       title: "Stay with me - Miki Matsubara (Cover by Ochi Rasheo)",

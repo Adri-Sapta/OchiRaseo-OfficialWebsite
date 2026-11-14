@@ -5,6 +5,7 @@ import Hero from '@/components/Hero';
 import Schedule from '@/components/Schedule';
 import Videos from '@/components/Videos';
 import Music from '@/components/Music';
+import OutfitRevealSection from "@/components/OutfitRevealSection";
 import Data from '@/components/Data';
 import ScrollToTop from '@/components/ScrollToTop';
 
@@ -20,6 +21,7 @@ export default async function Home() {
       <main className="min-h-screen bg-[#f7faf7]">
         <Navbar />
         <Hero />
+        <OutfitRevealSection />
         <Schedule streams={upcomingStreams} />
         <Videos 
           initialVideos={latestStreamsData.items} 
